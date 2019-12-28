@@ -1,0 +1,35 @@
+{
+    "name": "kripton/botman",
+    "description": "Telegram BOT",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kriptonuz",
+            "email": "kripton253@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/zetgram/core"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "php-di/php-di": "^6.0",
+        "illuminate/translation": "^6.8",
+        "zetgram/core": "dev-master",
+        "vlucas/phpdotenv": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    }
+}
