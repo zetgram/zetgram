@@ -1,6 +1,6 @@
 {
-    "name": "kripton/botman",
-    "description": "Telegram BOT",
+    "name": "zetgram/zetgram",
+    "description": "Framework for Telegram bot API",
     "type": "project",
     "license": "MIT",
     "authors": [
