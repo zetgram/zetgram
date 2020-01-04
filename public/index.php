@@ -3,6 +3,7 @@ declare(strict_types=1);
 
 use App\Handlers\StartHandler;
 use Zetgram\Bot;
+use Zetgram\Types\Update;
 
 require __DIR__ . '/../boot.php';
 
@@ -11,8 +12,7 @@ require __DIR__ . '/../boot.php';
  */
 $bot = $container->get(Bot::class);
 
-$bot->hears('\/start.*', StartHandler::class);
-/*
- * @TODO webhook
- */
-$bot->run();
+include APP_DIR . 'routes.php';
+
+$update = new Update(getRequestBody());
+$bot->handleUpdate($update);

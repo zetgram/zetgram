@@ -11,6 +11,4 @@ require __DIR__ . '/boot.php';
  */
 $bot = $container->get(Bot::class);
 
-$bot->hears('\/start.*', StartHandler::class);
-
 $bot->run();
