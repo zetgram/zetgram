@@ -3,7 +3,6 @@ declare(strict_types=1);
 
 if(getenv('DEBUG') === 'true') {
     error_reporting(-1);
-    ini_set('display_errors', 'On');
 }
 
 use DI\ContainerBuilder;
