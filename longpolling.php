@@ -1,7 +1,6 @@
 <?php
 declare(strict_types=1);
 
-use App\Handlers\StartHandler;
 use Zetgram\Bot;
 
 require __DIR__ . '/boot.php';

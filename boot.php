@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
 if(getenv('DEBUG') === 'true') {
-    error_reporting(-1);
+    error_reporting(E_ALL );
 }
 
 use DI\ContainerBuilder;
