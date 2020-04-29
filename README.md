@@ -1,7 +1,7 @@
 # Zetgram 
 PHP framework for Telegram bot API
 
-![PHP](https://img.shields.io/badge/php-%3E%3D5.6-8892bf.svg)
+![PHP](https://img.shields.io/badge/php-%3E%3D7.4-8892bf.svg)
 ![CURL](https://img.shields.io/badge/cURL-required-green.svg)
 
 
